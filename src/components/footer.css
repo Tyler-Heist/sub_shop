@@ -1,0 +1,9 @@
+.footer {
+    height: 12vmin;
+    min-height: 7vw;
+    background-color: #6B277C;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    color: azure;
+}

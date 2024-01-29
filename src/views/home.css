@@ -1,0 +1,50 @@
+.imgContainer {
+    height: 41vw;
+    width: 100%;
+    background-image: url('http://www.heckyssubshop.com/s/img/emotionheader.jpg?1417478309.960px.500px');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.backgroundImg {
+    background: url('../resources/Sandwich.png') repeat;
+    border: 1px solid black;
+}
+
+.borderWrapper {
+    box-shadow: 0px 2px 30px -15px rgba(60, 0, 90, 1) inset;
+    background-color: #ffffff;
+    opacity: 0.95;
+    padding: 20px;
+}
+
+.border {
+    margin: 20px 10vw;
+    border-top: 5px dotted black;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 170px;
+    background-color: #FDEF1C;
+    border: none;
+    font-size: 24px;
+}
+
+.orderBtn:hover {
+    cursor: pointer;
+}
+
+/*@media screen and (max-width: 1200px) {
+    .container {
+        height: 41vw;
+    }
+}*/
